@@ -1,5 +1,5 @@
 body {
-    background-image: url('C:\Users\adeba\OneDrive\Images\linedpaper.png');
+    background-image: url('C:\Users\adeba\OneDrive\Images\darktheme.jpg');
     width: 600px;
     margin: 0 auto;
     padding: 0;
@@ -12,16 +12,16 @@ body {
   }
   
   input[type="text"]{
-    background-color : #f8f8f8;
+    background-color : hwb(0 100% 0% / 0);
   }
   
   #addNeed {
-    background-color : #f8f8f8;
+    background-color : #f3f3f300;
     color: #3498db;
   }
   
   #addHave {
-    background-color : #f8f8f8;
+    background-color : #f8f8f800;
     color: #3498db;
   }
   
@@ -41,30 +41,31 @@ body {
     font-size: 22px;
     padding: 0 !important;
     width: 500px;
-    border: 1px solid #dedede;
+    border: 1px solid hsla(0, 0%, 87%, 0);
   }
   .list li {
     list-style: none;
-    background-color : #f8f8f8;
-    border-bottom: 1px dotted #ccc;
+    background-color : #f8f8f800;
+    border-bottom: 1px dotted #cccccc00;
     text-indent: 25px;
     height: auto;
     padding: 10px;
     text-transform: capitalize;
-    color: #3498db;
+    color: #2c13e6; /*List Color of the words in the list */
   }
   li a {
     float: right;
     text-decoration: none;
-    color: red;
+    color: rgba(225, 59, 17, 0.77); /*Color of the x marks for the words */
   }
   
-  @media (-webkit-min-device-pixel-ratio: 2), /* Webkit-based browsers */
-         (min--moz-device-pixel-ratio: 2),    /* Older Firefox browsers (prior to Firefox 16) */
-         (min-resolution: 2dppx),             /* The standard way */
-         (min-resolution: 192dpi)             /* dppx fallback */
+  @media (-webkit-min-device-pixel-ratio: 2), 
+         (min--moz-device-pixel-ratio: 2),    
+         (min-resolution: 2dppx),             
+         (min-resolution: 192dpi)             
   {
       body {
-          background-image: url('C:\Users\adeba\OneDrive\Images\linedpaper.png');
+          background-image: url('C:\Users\adeba\OneDrive\Images\darktheme.jpg'); 
+          background-color: rgba(46, 151, 44, 0.713);
       }
   }
