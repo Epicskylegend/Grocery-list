@@ -51,12 +51,13 @@ body {
     height: auto;
     padding: 10px;
     text-transform: capitalize;
-    color: #2c13e6; /*List Color of the words in the list */
+    color: #5204e4; /*List Color of the words in the list */
+    
   }
   li a {
     float: right;
     text-decoration: none;
-    color: rgba(225, 59, 17, 0.77); /*Color of the x marks for the words */
+    color: rgba(6, 41, 215, 0.77); /*Color of the x marks for the words */
   }
   
   @media (-webkit-min-device-pixel-ratio: 2), 
@@ -66,6 +67,6 @@ body {
   {
       body {
           background-image: url('C:\Users\adeba\OneDrive\Images\darktheme.jpg'); 
-          background-color: rgba(46, 151, 44, 0.713);
+          background-color: rgba(0, 0, 0, 0.713);
       }
   }

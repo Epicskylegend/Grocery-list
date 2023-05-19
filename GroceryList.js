@@ -18,7 +18,7 @@
 		item.appendTo(list);
 	}
 
-	$('#addHave, #addNeed').click(callback);
+	$('#addHave, #addNeed, #addStore').click(callback);
 	
 	$('ul').on('click', 'li a', function(event){
 		$(event.target).parent('li').remove();
