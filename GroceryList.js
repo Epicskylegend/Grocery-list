@@ -29,4 +29,5 @@
 			list = (event.target.checked) ? $('ul').last() : $('ul').first();
 		listItem.appendTo(list);
 	});
+
 });
