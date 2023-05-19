@@ -1,5 +1,5 @@
 body {
-    background-image: url('linedpaper/linedpaper.png');
+    background-image: url('C:\Users\adeba\OneDrive\Images\linedpaper.png');
     width: 600px;
     margin: 0 auto;
     padding: 0;
@@ -7,7 +7,7 @@ body {
   }
   
   form {
-    color: #3498db;
+    color: #3496d8;
     font-size: 22px;
   }
   
@@ -65,6 +65,6 @@ body {
          (min-resolution: 192dpi)             /* dppx fallback */
   {
       body {
-          background-image: url('linedpaper/linedpaper_@2x.png');
+          background-image: url('C:\Users\adeba\OneDrive\Images\linedpaper.png');
       }
   }
